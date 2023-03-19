@@ -1,0 +1,55 @@
+body {
+    background: lightgray;
+    margin: 0;
+}
+
+.header-container {
+    background: lightslategrey;
+    display: grid;
+    height: 42px;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.content {
+    margin: 10px;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: lightblue;
+}
+
+button > a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 50px;
+    align-items: center;
+}
+
+.footer-item {
+    text-align: center;
+}
+
+.footer-item > a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-item > a:hover {
+    text-decoration: underline;
+}
